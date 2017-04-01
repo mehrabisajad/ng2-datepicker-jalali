@@ -1,5 +1,10 @@
 # ng2-datepicker-jalali
 
+#Test
+
+[http://mehrabisajad.ir/lib/ng2-datepicker-jalali/](http://mehrabisajad.ir/lib/ng2-datepicker-jalali/)
+[https://github.com/mehrabisajad/ng2-datepicker-jalali-test](https://github.com/mehrabisajad/ng2-datepicker-jalali-test/)
+
 ## Installation
 
 To install this library, run:

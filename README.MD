@@ -1,8 +1,9 @@
 # ng2-datepicker-jalali
-
-#Test
+datepicker jalali
+##Test
 
 [http://mehrabisajad.ir/lib/ng2-datepicker-jalali/](http://mehrabisajad.ir/lib/ng2-datepicker-jalali/)
+
 [https://github.com/mehrabisajad/ng2-datepicker-jalali-test](https://github.com/mehrabisajad/ng2-datepicker-jalali-test/)
 
 ## Installation
@@ -46,10 +47,16 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 export class AppModule { }
 ```
 
+edit css `styles.css`
+```css
+/*styles.css*/
+@import '~bootstrap/dist/css/bootstrap.min.css';
+```
+
 Once NgbModule library is imported, you can use its components in your Angular application:
 
 ```xml
-<!-- You can now use your library component in app.component.html -->
+<!-- use ngb-datepicker component in app.component.html -->
 <h1>
   {{title}}
 </h1>
@@ -58,6 +65,8 @@ Once NgbModule library is imported, you can use its components in your Angular a
 
 And set providers in app.component.ts
 ```typescript
+// app.component.ts
+import {NgbDateStruct, NgbCalendar, NgbDatepickerI18n, NgbDatepickerConfig} from '@ng-bootstrap/ng-bootstrap';
 import {PersianI18n} from "ng2-datepicker-jalali/persian/persian-I18n";
 import {NgbCalendarPersian} from "ng2-datepicker-jalali/persian/ngb-calendar-persian";
 

@@ -1,6 +1,6 @@
 {
   "name": "ng2-datepicker-jalali",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "test": "tsc && karma start",
@@ -16,7 +16,7 @@
     "email": "info@mehrabisajad.ir"
   },
   "keywords": [
-    "angular"
+    "angular","datepicker","datepicker jalali","datepicker farsi","datepicker irani","datepicker persian"
   ],
   "license": "MIT",
   "bugs": {

@@ -1,6 +1,6 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {PersianI18n} from "./persian-I18n";
+import {NgbDatepickerI18nPersian} from "./ngb-datepicker-i18n-persian";
 import {NgbCalendarPersian} from "./ngb-calendar-persian";
 
 
@@ -9,11 +9,11 @@ import {NgbCalendarPersian} from "./ngb-calendar-persian";
     CommonModule
   ],
   declarations: [
-    PersianI18n,
+    NgbDatepickerI18nPersian,
     NgbCalendarPersian
   ],
   exports: [
-    PersianI18n,
+    NgbDatepickerI18nPersian,
     NgbCalendarPersian
   ]
 })

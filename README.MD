@@ -1,5 +1,7 @@
 # ng2-datepicker-jalali
-datepicker jalali
+
+datepicker jalali and datepicker persian
+
 ##Test
 
 [http://mehrabisajad.ir/lib/ng2-datepicker-jalali/](http://mehrabisajad.ir/lib/ng2-datepicker-jalali/)
@@ -67,8 +69,8 @@ And set providers in app.component.ts
 ```typescript
 // app.component.ts
 import {NgbDateStruct, NgbCalendar, NgbDatepickerI18n, NgbDatepickerConfig} from '@ng-bootstrap/ng-bootstrap';
-import {PersianI18n} from "ng2-datepicker-jalali/persian/persian-I18n";
 import {NgbCalendarPersian} from "ng2-datepicker-jalali/persian/ngb-calendar-persian";
+import {NgbDatepickerI18nPersian} from "ng2-datepicker-jalali/persian/ngb-datepicker-i18n-persian";
 
 
 @Component({
@@ -77,7 +79,7 @@ import {NgbCalendarPersian} from "ng2-datepicker-jalali/persian/ngb-calendar-per
   styleUrls: ['./app.component.css'],
   providers: [
     {provide: NgbCalendar, useClass: NgbCalendarPersian},
-    {provide: NgbDatepickerI18n, useClass: PersianI18n}
+    {provide: NgbDatepickerI18n, useClass: NgbDatepickerI18nPersian}
   ]
 })
 export class AppComponent {

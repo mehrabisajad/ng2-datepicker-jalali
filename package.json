@@ -1,6 +1,6 @@
 {
   "name": "ng2-datepicker-jalali",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "test": "tsc && karma start",

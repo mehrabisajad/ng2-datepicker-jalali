@@ -11,7 +11,7 @@ function mod(a: number, b: number): number {
 }
 
 function div(a: number, b: number) {
-    return Math.floor(a / b);
+    return Math.trunc(a / b);
 }
 
 @Injectable()

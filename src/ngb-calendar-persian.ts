@@ -23,7 +23,6 @@ export class NgbCalendarPersian extends NgbCalendarJalali {
      * utc to local
      */
     fromGregorian(gdate: Date): NgbDate {
-        let message: string[] = gdate.toLocaleDateString().split('/');
         let g2d = this.gregorianToDay(gdate.getFullYear(), gdate.getMonth()+1, gdate.getDate());
 
         return this.dayToJalali(g2d);

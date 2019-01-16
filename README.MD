@@ -1,5 +1,9 @@
 # ng2-datepicker-jalali
 
+This Jalali library was added to the [https://ng-bootstrap.github.io/#/components/datepicker/calendars#jalali](Bootstrap library). Please use it.
+
+این کتابخانه جلالی به کتابخانه بوت استرپ اضافه شده است. لطفا از آن استفاده کنید.
+
 datepicker jalali and datepicker persian
 
 ## Test
